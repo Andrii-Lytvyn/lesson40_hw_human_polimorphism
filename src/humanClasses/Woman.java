@@ -1,4 +1,4 @@
-package Classes;
+package humanClasses;
 
 public class Woman extends Human {
   public Woman(String name) {
@@ -11,7 +11,7 @@ public class Woman extends Human {
   }
 
   @Override
-  public void greetings() {
+  public void greet() {
     System.out.println("Я родилась!");
   }
 }

@@ -1,4 +1,4 @@
-package Classes;
+package humanClasses;
 
 public class Human {
   public String name;
@@ -7,7 +7,7 @@ public class Human {
     this.name = name;
   }
 
-  public void greetings() {
+  public void greet() {
     System.out.println("Я родился!");
   }
 

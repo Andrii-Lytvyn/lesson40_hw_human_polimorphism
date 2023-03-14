@@ -1,4 +1,4 @@
-package Classes;
+package humanClasses;
 
 public class Man extends Human {
   public Man(String name) {

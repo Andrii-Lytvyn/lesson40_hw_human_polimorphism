@@ -1,6 +1,6 @@
-import Classes.Human;
-import Classes.Man;
-import Classes.Woman;
+import humanClasses.Human;
+import humanClasses.Man;
+import humanClasses.Woman;
 
 public class Main {
 
@@ -14,16 +14,16 @@ public class Main {
   public static void main(String[] args) {
     Human newHuman = new Human("Joseph");
     System.out.println(newHuman);
-    newHuman.greetings();
+    newHuman.greet();
 
     System.out.println();
     Man newMan = new Man("Ralph");
     System.out.println(newMan);
-    newMan.greetings();
+    newMan.greet();
     System.out.println();
 
     Woman newWoman = new Woman("Britney");
     System.out.println(newWoman);
-    newWoman.greetings();
+    newWoman.greet();
   }
 }
