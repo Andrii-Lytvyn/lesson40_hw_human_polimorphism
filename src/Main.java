@@ -1,4 +1,6 @@
 import Classes.Human;
+import Classes.Man;
+import Classes.Woman;
 
 public class Main {
 
@@ -12,7 +14,16 @@ public class Main {
   public static void main(String[] args) {
     Human newHuman = new Human("Joseph");
     System.out.println(newHuman);
+    newHuman.greetings();
 
+    System.out.println();
+    Man newMan = new Man("Ralph");
+    System.out.println(newMan);
+    newMan.greetings();
+    System.out.println();
 
+    Woman newWoman = new Woman("Britney");
+    System.out.println(newWoman);
+    newWoman.greetings();
   }
 }
